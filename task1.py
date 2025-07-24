@@ -19,4 +19,8 @@ meals.remove("Masa")
 meals.remove("Fura da Nono")
 meals.append("Fura da Nono")
 print(meals)
+len(meals)//2
+print(meals)
+meals.sort()
+print(meals)
 
