@@ -14,8 +14,7 @@ genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary"
 genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documenatry", "Fantasy"]
 
 genres.append("Drama")
-#genres.set("Fantasy")
+genres.remove("Fantasy")
 print(genres)
 print(len(genres))
-genre1, genre2 = genres[2::-1]
-print(genre1, genre2)
+print(genres1, genre2)
